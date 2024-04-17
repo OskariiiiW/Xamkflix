@@ -1,0 +1,69 @@
+.x3l, .x2l, .xl, .pikkuteksti {
+  text-align: center;
+  text-decoration: none;
+  color: #111827;
+}
+
+.x3l {
+    font-size: 18px;
+    color: #f9fafb
+}
+  .x2l {
+    font-size : 22px;
+}
+  .xl {
+    font-size: 26px;
+}
+.pikkuteksti {
+  font-size: 16px;
+  overflow: hidden;
+  text-decoration: none;
+  color: #111827;
+}
+
+.kuva, .teksti {
+  display: block;
+  float: left;
+}
+
+.kuva {
+  border: 5px;
+  border-color: #4b5563;
+  border-radius: 10px;
+  background-color: #4b5563;
+  width: 300px;
+}
+.tekstiLaatikko {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.kuva22 {
+  margin-left:19%;
+  width:auto;
+}
+.kuva2 {
+  margin-left:10%;
+  width:80%;
+}
+
+.teksti {
+  max-width: 280px;
+  text-align: center
+}
+
+.valikko {
+  display: inline-block;
+  width: 200px;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  color: #f9fafb;
+  background-color: #4b5563;
+}
+
+.modal {
+  background-color: red;
+}

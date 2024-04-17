@@ -1,0 +1,26 @@
+{
+    "Genre" : [{"Komedia" : "Komedia"},
+    {"Lyhytelokuva" : "Lyhytelokuva"},
+    {"Draama" : "Draama"},
+    {"Elämänkerta" : "Elämänkerta"},
+    {"Historia" : "Historia"},
+    {"Fantasia" : "Fantasia"},
+    {"Kauhu" : "Kauhu"},
+    {"Perhe" : "Perhe"},
+    {"Romantiikka" : "Romantiikka"},
+    {"Toiminta" : "Toiminta"},
+    {"Seikkailu" : "Seikkailu"},
+    {"Sota" : "Sota"},
+    {"Western" : "Western"},
+    {"Sci-Fi" : "Sci-Fi"},
+    {"Mysteeri" : "Mysteeri"},
+    {"Jännitys" : "Jännitys"},
+    {"Musikaali" : "Musikaali"},
+    {"Rikos" : "Rikos"},
+    {"Urheilu" : "Urheilu"},
+    {"Dokumentti" : "Dokumentti"},
+    {"Animaatio" : "Animaatio"},
+    {"Film-Noir" : "Film-Noir"}
+]
+
+}

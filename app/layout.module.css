@@ -1,0 +1,28 @@
+.x3l, .x2l, .xl {
+  text-decoration: none;
+  color: #111827;
+}
+
+.x3l {
+    font-size: 18px;
+  }
+  .x2l {
+    font-size : 22px;
+  }
+  .xl {
+    font-size: 26px;
+  }
+.header {
+    width: 900px;
+}
+.genreValikko {
+  width: 140px;
+  padding: 3px;
+  margin: 3px;
+  text-decoration: none;
+  border-radius: 5px;
+  color: #f9fafb;
+  background-color: #4b5563;
+  display: block;
+  float: left;
+}

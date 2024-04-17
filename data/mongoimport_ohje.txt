@@ -1,0 +1,11 @@
+Tee MongoDB-tietokanta Atlakseen tai paikallisesti ja vie siihen oheinen tiedosto mongoimport-ohjelmalla:
+
+mongoimport --uri mongodb+srv://[tunnus]:[salasana]@[mongoDB-palvelin]/[tietokanta] --collection [kokoelman nimi] --file elokuvaMongoDB.json
+
+Muista myös yhteysstringin määrittäminen ympäristömuuttujaan. Luo projektin juureen .env-tiedosto ja sinne rivi:
+
+DB_URI="mongodb+srv://[tunnus]:[salasana]@[mongoDB-palvelin]/[tietokanta]"
+
+mongoimport --uri mongodb+srv://aoski001:ElOz1B6sKaWJSvxv@cluster0.nrz6zja.mongodb.net/Xamkflix --collection elokuvalista --type json --file data\elokuvaMongoDB.json
+
+mongoimport --uri mongodb+srv://aoski001:ElOz1B6sKaWJSvxv@cluster0.nrz6zja.mongodb.net/Xamkflix --collection elokuvalista --type json --file C:\Users\Ninja\OneDrive\Työpöytä\ajankohtais\teht\xamkflix-Aoski-Xamk\teht1\data\elokuvaMongoDB.json
